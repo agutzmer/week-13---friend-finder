@@ -12,14 +12,10 @@
 
 	<div class="container">
 	
-		<h1><strong>Find a Friend. Fill out the survey below.</strong></h1>
+		<h1><strong>Go to the bullpen. Fill out the survey below.</strong></h1>
 
 		<h4>What is your Name?</h4>
 		<input type="text" name="" id="name" class="form-control" required >
-
-		<h4>Enter a link to a photo.</h4>
-		<input type="text" name="" id="photo" class="form-control" required >
-
 		<br>
 
 		<h4><strong>Answer the survey questions below.</strong></h4>
@@ -170,7 +166,6 @@
 
 			var responses = {
 	    		name: $("#name").val(),
-	    		photoLink: $("#photo").val(),
 	    		picks: [$("#s1").val(), $("#s2").val(), $("#s3").val(), $("#s4").val(), $("#s5").val(), $("#s6").val(), $("#s7").val(), $("#s8").val(), $("#s9").val(), $("#s10").val()] }
 
 	//		console.log (responses);	
@@ -182,7 +177,7 @@
         .done(function (data) {
           console.log(data);
    //       alert('Got a pitcher');
-         var titleText = "Here's a pitcher for you, " + $("#name").val();
+         var titleText = "Here's your pitcher, " + $("#name").val();
 
          $("#title").text(titleText);
          $("#pitcherName").text(data.name);
