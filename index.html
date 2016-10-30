@@ -1,0 +1,198 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ten Question Survey</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div class="container">
+	
+		<h1><strong>Find a Friend. Fill out the survey below.</strong></h1>
+
+		<h4>What is your Name?</h4>
+		<input type="text" name="" id="name" class="form-control" required >
+
+		<h4>Enter a link to a photo.</h4>
+		<input type="text" name="" id="photo" class="form-control" required >
+
+		<br>
+
+		<h4><strong>Answer the survey questions below.</strong></h4>
+
+		<h4>You think the Big 12 should stop calling itself 12.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s1">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+		<h4>You think baseball should scrap the designated hitter rule.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s2">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+
+		<h4>You don't know what's going on with the Packers.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s3">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+
+		<h4>You think Mopac will never be completed.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s4">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+
+		<h4>And you won't drive in those lanes anyway.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s5">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+
+		<h4>You think the Little Longhorn is the best dive bar in the world.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s6">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+		<h4>You think radio stations should have one day a week with NO Pink Floyd.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s7">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+		<h4>You think airlines should drop the luggage fees.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s8">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+		<h4>And unload the luggage faster.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s9">
+	 		<option value=""></option>
+            <option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+		<h4>You question the value of 10 question surveys.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="s10">
+	 		<option value=""></option>
+           	<option value="1">Strongly Agree</option>
+            <option value="2">Mildly Agree</option>
+            <option value="3">Neither Agree nor Disagree</option>
+            <option value="4">Mildly Disagree</option>
+            <option value="5">Strongly Disagree</option>
+      	</select>
+
+		<br>
+		<br>
+
+		<!-- Submit Button -->
+		<div class="text-center">
+			<button type="submit" class="btn btn-primary btn-lg" id="submitBtn"></span><span class="glyphicon glyphicon-search"></span> Click to submit.</button>
+		</div>
+	</div>
+
+
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="theModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <class="modal-title">
+        <h3 id="title"></h3>
+
+      </div>
+      <div class="modal-body">
+        <h2 id="pitcherName"></h2>
+         <img id="pitcherPhoto" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+	<script type="text/javascript">
+		$('#submitBtn').on('click', function () {
+
+			var responses = {
+	    		name: $("#name").val(),
+	    		photoLink: $("#photo").val(),
+	    		picks: [$("#s1").val(), $("#s2").val(), $("#s3").val(), $("#s4").val(), $("#s5").val(), $("#s6").val(), $("#s7").val(), $("#s8").val(), $("#s9").val(), $("#s10").val()] }
+
+	//		console.log (responses);	
+
+			var currentURL = window.location.origin;
+
+      // Question: What does this code do??
+      $.post('http://localhost:3000/api/formdata', responses)
+        .done(function (data) {
+          console.log(data);
+   //       alert('Got a pitcher');
+         var titleText = "Here's a pitcher for you, " + $("#name").val();
+
+         $("#title").text(titleText);
+         $("#pitcherName").text(data.name);
+         $('#pitcherPhoto').attr("src", data.image);
+         $("#theModal").modal('toggle');
+        });
+
+
+   });
+
+	</script>
+</body>
+</html>
